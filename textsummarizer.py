@@ -7,7 +7,7 @@ from nltk.tokenize import sent_tokenize
 import numpy as np
 import networkx as nx
 import re
-import scipy as sp
+
 #Function to split text into sentences by fullstop(.)
 '''def read_article(text):
     
