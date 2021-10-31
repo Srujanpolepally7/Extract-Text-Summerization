@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, render_template
 from textsummarizer import *
 
-app = Flask(__name__, template_folder = r"C:\Users\admin\Desktop\Master's\Interview\Extractive-Text-Summarization-master\templates" )
+app = Flask(__name__)
 
 @app.route('/')
 def home():
