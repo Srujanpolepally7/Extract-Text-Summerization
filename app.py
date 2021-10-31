@@ -20,7 +20,7 @@ def summarize():
             
         summary, original_length = generate_summary(text,numOfLines)
         
-        return render_template('result.html',
+        return render_template('Result.html',
                                text_summary=summary,
                                lines_original = original_length,
                                lines_summary = numOfLines)
