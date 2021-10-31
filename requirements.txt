@@ -2,3 +2,4 @@ Flask==1.1.1
 networkx==2.6.2
 nltk==3.6.2
 numpy==1.19.5
+gunicorn
